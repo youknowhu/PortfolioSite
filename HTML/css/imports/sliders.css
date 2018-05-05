@@ -28,6 +28,10 @@
 
 .fslider { min-height: 32px; }
 
+.swiper-slide-active {
+	width: 100%;
+}
+
 
 .flex-container a:active,
 .flexslider a:active,
@@ -387,6 +391,10 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	right: 0;
 }
 
+.slider-caption-center > h2 {
+		color: #434343;
+}
+
 .slider-caption-bg {
 	padding: 5px 12px;
 	border-radius: 2px;
@@ -587,4 +595,3 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-element .owl-dots .owl-dot.active,
 .slider-element .owl-dots .owl-dot:hover { background-color: #FFF !important; }
-

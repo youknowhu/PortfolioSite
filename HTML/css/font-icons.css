@@ -1799,9 +1799,11 @@
 }
 .icon-angle-left:before {
 	content: "\e7a4";
+	display: none;
 }
 .icon-angle-right:before {
 	content: "\e7a5";
+	display: none;
 }
 .icon-angle-up:before {
 	content: "\e7a6";

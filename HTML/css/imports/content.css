@@ -23,6 +23,7 @@
 .content-wrap {
 	position: relative;
 	padding: 80px 0;
+	width: 100%;
 }
 
 #content .container { position: relative; }

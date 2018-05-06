@@ -108,6 +108,7 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	display: none;
 }
 
 .owl-carousel.owl-loaded { display: block; }
@@ -267,6 +268,7 @@
 	left: auto !important;
 	right: 0 !important;
 	border-radius: 3px 0 0 3px;
+	display: none;
 }
 
 .owl-carousel:hover .owl-nav [class*=owl-] {
@@ -277,6 +279,7 @@
 .owl-carousel:hover .owl-nav .owl-next {
 	left: auto;
 	right: -18px;
+	display: none;
 }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {

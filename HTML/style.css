@@ -2908,6 +2908,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	-webkit-transition: background-color .3s ease-in-out;
 	-o-transition: background-color .3s ease-in-out;
 	transition: background-color .3s ease-in-out;
+
 }
 
 .slider-arrow-top-sm,
@@ -2945,6 +2946,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	left: auto;
 	right: 0;
 	border-radius: 3px 0 0 3px;
+	display: none;
 }
 
 #slider-arrow-left i,
@@ -4709,7 +4711,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 #portfolio-ajax-single h2 { font-size: 26px; }
 
 #splash-img {
-	width: 50px;
+	opacity: 0.92;
 }
 
 /* Portfolio Single - Meta
@@ -10204,12 +10206,14 @@ body:not(.device-touch) .rounded-skill {
 .owl-theme .owl-controls .owl-nav .owl-next {
 	left: auto;
 	right: -36px;
+	display: none;
 }
 
 .owl-carousel-full .owl-controls .owl-nav .owl-next {
 	left: auto !important;
 	right: 0 !important;
 	border-radius: 3px 0 0 3px;
+	display: none;
 }
 
 .owl-theme:hover .owl-controls .owl-nav [class*=owl-] {
@@ -10220,6 +10224,7 @@ body:not(.device-touch) .rounded-skill {
 .owl-theme:hover .owl-controls .owl-nav .owl-next {
 	left: auto;
 	right: -18px;
+	display: none;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
@@ -10230,6 +10235,10 @@ body:not(.device-touch) .rounded-skill {
 
 .owl-theme .owl-controls .owl-nav .disabled { display: none !important; }
 
+
+.owl-nav.disabled {
+	display: none;
+}
 
 /* Owl Carousel - Controls - Dots
 -----------------------------------------------------------------*/
@@ -12890,8 +12899,18 @@ body:not(.no-transition) #wrapper,
 
 
 .splash-caption {
-	width: 70%;
-	padding-left: 5%;
+	width: 62.8%;
+	padding-left: 7%;
 	text-align: center;
 	font-weight: bold;
+}
+
+
+.col_one_third img {
+	border: 3px solid #434343;
+	padding: 5px;
+}
+
+.col_one_third h2 {
+	margin: 0 auto;
 }

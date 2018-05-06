@@ -930,7 +930,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 	color: #CCC;
 }
 
-.dark .owl-carousel.owl-loading { background-image: url('../images/preloader-dark.gif'); }
+.dark .owl-carousel.owl-loading { background-image: url('../images/preloader-dark.gif');  }
 
 .dark .owl-carousel .owl-nav [class*=owl-] {
 	border-color: transparent;

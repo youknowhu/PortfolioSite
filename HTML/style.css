@@ -12906,11 +12906,33 @@ body:not(.no-transition) #wrapper,
 }
 
 
-.col_one_third img {
-	border: 3px solid #434343;
-	padding: 5px;
+/* .col_one_third img {
+	border: 2px solid #a3a3a3;
+} */
+
+.col_one_third h3 {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 0.5vw;
 }
 
-.col_one_third h2 {
-	margin: 0 auto;
+.col_one_third p {
+	padding-top: 0.75vw;
+	text-align: center;
+	color: #434343;
+}
+
+.col_one_third {
+	padding: 15px;
+	height: 100%;
+
+}
+
+.col_one_third:hover  {
+	background: #F7F7F7;
+	color: #1ABC9C;
+}
+
+.col_one_third:hover p, .col_one_third:hover h3 {
+	color: #1ABC9C;
 }

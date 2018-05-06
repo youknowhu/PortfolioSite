@@ -8392,6 +8392,8 @@ body:not(.device-touch) .social-icon i {
 .si-colored.si-klout { background-color: #FF5F52 !important; }
 .si-linkedin:hover,
 .si-colored.si-linkedin { background-color: #0E76A8 !important; }
+.si-angellist:hover,
+.si-colored.si-angellist { background-color: #88498F !important; }
 .si-vk:hover,
 .si-colored.si-vk { background-color: #2B587A !important; }
 .si-rss:hover,
@@ -12964,4 +12966,8 @@ body:not(.no-transition) #wrapper,
 
 #contact .col_one_third:hover a, #contact .col_one_third:hover i {
 	color: #1ABC9C;
+}
+
+#story-bio {
+	display: flex;
 }

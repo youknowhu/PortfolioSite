@@ -2350,7 +2350,6 @@ body:not(.device-touch) #page-menu.dots-menu nav li .dots-menu-caption {
 }
 
 .side-header:not(.open-header) #wrapper .container {
-	width: auto;
 	margin: 0 40px;
 }
 
@@ -3201,7 +3200,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 .content-wrap {
 	position: relative;
 	padding: 0;
-	padding-top: 80px;
+	padding-top: 40px;
 }
 
 #content .container { position: relative; }
@@ -6095,7 +6094,6 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .promo.promo-border {
-	border: 1px solid #E5E5E5;
 	border-radius: 3px;
 	padding-left: 30px;
 }
@@ -10214,43 +10212,34 @@ body:not(.no-transition) #wrapper,
 	color: #1ABC9C;
 }
 
-/* #contact {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-} */
 
 #contact h2 {
-	padding-top: 15px;
 	margin-bottom: 0;
-	color: white;
 }
 
 #contact i {
 	padding-right: 10px;
-	color: white;
 }
 
 #contact p {
 	margin-bottom: 10px;
-	color: white;
 }
 
 #contact a {
 	text-align: center;
-	color: white;
 }
 
 #contact > * {
-	color: white;
+	color: #444;
 }
 
-#contact {
-	background: #9C9C9C;
+#contact .contact-footer {
+	display: flex;
+	justify-content: flex-start;
 }
 
-#contact .col_one_third:hover a, #contact .col_one_third:hover i {
-	color: #1ABC9C;
+#contact .contact-footer > * {
+	margin-right: 40px;
 }
 
 #story-bio {

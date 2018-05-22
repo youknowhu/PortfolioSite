@@ -8,3 +8,8 @@
 
 
 
+@media only screen and (max-width: 991px) {
+	#primary-menu-trigger {
+    display: none;
+  }
+}

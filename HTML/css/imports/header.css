@@ -161,6 +161,7 @@ body.stretched #header.full-header .container {
 
 #primary-menu ul.mobile-primary-menu { display: none; }
 
+
 #header.full-header #primary-menu > ul {
 	float: left;
 	padding-right: 15px;

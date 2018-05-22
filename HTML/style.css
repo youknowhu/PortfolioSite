@@ -10214,6 +10214,7 @@ body:not(.no-transition) #wrapper,
 
 
 #contact h2 {
+	padding-top: 15px;
 	margin-bottom: 0;
 }
 
@@ -10227,6 +10228,17 @@ body:not(.no-transition) #wrapper,
 
 #contact a {
 	text-align: center;
+	line-height: 30px;
+	color: #444;
+}
+
+#contact a:hover {
+	color: #1ABC9C;
+}
+
+#contact {
+	background: #F7F7F7;
+	margin-top: 20px;
 }
 
 #contact > * {
@@ -10236,11 +10248,17 @@ body:not(.no-transition) #wrapper,
 #contact .contact-footer {
 	display: flex;
 	justify-content: flex-start;
+	line-height: 25px;
 }
 
-#contact .contact-footer > * {
-	margin-right: 40px;
+#contact .contact-footer i {
+	padding: 0;
 }
+
+#contact .contact-footer-link {
+	margin-right: 30px;
+}
+
 
 #story-bio {
 	display: flex;

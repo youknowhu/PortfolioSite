@@ -1020,7 +1020,7 @@ var SEMICOLON = SEMICOLON || {};
 			$('body:not(.side-header) #primary-menu:not(.on-click) > ul, body:not(.side-header) #primary-menu:not(.on-click) > div > ul:not(.dropdown-menu), .top-links:not(.on-click) > ul').superfish({
 				popUpSelector: 'ul,.mega-menu-content,.top-link-section',
 				delay: 250,
-				speed: 350,
+				speed: 150,
 				animation: {opacity:'show'},
 				animationOut:  {opacity:'hide'},
 				cssArrows: false,

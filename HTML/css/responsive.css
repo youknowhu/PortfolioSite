@@ -153,6 +153,10 @@
 
 @media (max-width: 991px) {
 
+	#contact .col_one_third {
+		margin: 0;
+	}
+
 	#wrapper {
 		width: 100%;
 		margin: 0;
@@ -1117,7 +1121,7 @@
 		width: 100%;
 		margin-right: 0;
 		float: none;
-		margin-bottom: 50px !important;
+		margin-bottom: 5px !important;
 	}
 
 	.sidebar.col_last { margin-bottom: 0 !important; }

@@ -158,6 +158,16 @@
 		flex-direction: column;
 	}
 
+	.contact-footer a {
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+	}
+
+	.contact-footer p {
+		font-size: 14px;
+	}
+
 	#wrapper {
 		width: 100%;
 		margin: 0;

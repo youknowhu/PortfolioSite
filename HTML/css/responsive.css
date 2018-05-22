@@ -153,8 +153,9 @@
 
 @media (max-width: 991px) {
 
-	#contact .col_one_third {
-		margin: 0;
+	.contact-footer {
+		display: flex;
+		flex-direction: column;
 	}
 
 	#wrapper {
